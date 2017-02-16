@@ -1,0 +1,22 @@
+<div class="PageSlide">
+    <header>
+        <div class="back bk" data-page="3"><i></i>返回</div>
+        <h1>微信支付</h1>
+    </header>
+    <div class="MainBox">
+        <form id="PayWechat" action="/Deposit/DepositPay" method="post" target="_blank">
+            <input name="__RequestVerificationToken" type="hidden" value="b752raWL2PnQhyBLD8GpV5G1h_5vQoDWjcqcY09ke9GckDMcxnmjvm7Sm8hym-HNpa9oPPwM_wbk2I82-yHQhKx6MejFwuHa8SDC4dzDIwo1">
+            <div class="labInput">
+                <ul>
+                    <li><span>充值帐号</span><input readonly="" type="text" value="hk889911"></li>
+                    <li><span>充值金额</span><input id="PayWechatAmount" name="Amount" type="number" value="" placeholder="0.00"></li>
+                </ul>
+                <div class="tt">单笔最低10元，最高2999元</div>
+                <input type="hidden" name="Type" value="2">
+                <div class="btn">
+                    <input id="DepositPayWechat" type="button" value="确定充值">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

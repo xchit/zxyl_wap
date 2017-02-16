@@ -1,0 +1,43 @@
+
+<div class="transfer">
+    <div class="MainBox">
+        <div class="input SlidePage PageTurn" data-url="transfer/platformType.html" data-select="1"
+             data-page="2">
+            <span>从</span>
+            <input id="TransferFrom" type="hidden" name="from" value=" ">
+            <input id="TransferOut" readonly="" type="text" placeholder="选择转出账户" value="">
+            <i class="arrow"></i>
+        </div>
+        <div class="switch" id="TransferSwitch"><i></i></div>
+        <div class="input SlidePage PageTurn" data-url="transfer/platformType.html" data-select="2"
+             data-page="2">
+            <span>到</span>
+            <input id="TransferTo" type="hidden" name="to" value=" ">
+            <input id="TransferIn" readonly="" type="text" placeholder="选择转入账户" value="">
+            <i class="arrow"></i>
+        </div>
+        <div class="chipsbox">
+            <div class="chips">
+                <ul id="chips">
+                    <li><i class="c1"></i></li>
+                    <li><i class="c2"></i></li>
+                    <li><i class="c3"></i></li>
+                    <li><i class="c4"></i></li>
+                </ul>
+            </div>
+            <div class="bd">
+                <h1>输入转账金额</h1>
+
+                <div class="input">
+                    <span>￥</span>
+                    <input id="transferAmount" type="number" placeholder="0.00" value="">
+                    <em id="transferAll">全额</em>
+                    <em id="transferdel">清除</em>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <input id="TradeSure" type="button" value="确认转账">
+        </div>
+    </div>
+</div>
